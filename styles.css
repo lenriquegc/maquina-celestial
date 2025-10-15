@@ -19,8 +19,8 @@ body {
   background: #fff;
   color: #333;
   font-size: 2rem;
-  width: 180px;
-  height: 250px;
+  width: 20%;
+  height: 80%;
   margin: 0 10px;
   border-radius: 10px;
   display: flex;
@@ -74,5 +74,6 @@ button {
     padding: 5px;
   }
 }
+
 
 
