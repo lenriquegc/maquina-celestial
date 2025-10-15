@@ -1,0 +1,40 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background: radial-gradient(circle, #ffcc70, #ff6f61);
+  text-align: center;
+  color: #fff;
+}
+
+.slot-machine {
+  margin-top: 50px;
+}
+
+.reels {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.reel {
+  background: #fff;
+  color: #333;
+  font-size: 2rem;
+  width: 180px;
+  height: 250px;
+  margin: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #000;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background: #ff3c3c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
