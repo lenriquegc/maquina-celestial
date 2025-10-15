@@ -38,3 +38,41 @@ button {
   border-radius: 10px;
   cursor: pointer;
 }
+/* Contenedor centrado */
+.maquina-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 100%;
+}
+
+/* Imagen de la máquina */
+.maquina {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 20px;
+  border: 4px solid gold;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.maquina:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+  .maquina {
+    max-width: 90%;
+  }
+
+  .maquina-container {
+    padding: 5px;
+  }
+}
+
+
